@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.container{
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+}
+.input{
+    width: 370px;
+    margin-right: 20px;
+    border-right: 2px dashed red;
+}
+.output{
+    width: 400px;
+    padding-top:100px;
+}
+h1{
+    text-align: center;
+    color: red;
+    line-height: 100px;
+}
+.form{
+    height: auto;
+}
+#number-task{
+    width: 290px;
+    height: 40px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+::-moz-placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+::-moz-placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+::-ms-input-placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#button-task{
+    background: none;
+    border: 3px solid red;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    color: red;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.data{
+    height: 60px;
+}
+.data p{
+    line-height: 40px;
+}
+#date{
+    width: 230px;
+    height: 40px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+#get-tracker{
+    background: none;
+    border: 3px solid red;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    line-height: 40px;
+    color: red;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.total-tracker{
+    border: 2px solid red;
+    padding: 10px;
+}
+#task-info{
+    width: 780px;
+    margin: 0 auto;
+}
+#task-info p{
+    border-bottom: 1px dashed red;
+    line-height: 30px;
+}
+#total{
+    width: 780px;
+    margin: 0 auto;
+    text-align: right;
+}
